@@ -7,18 +7,60 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencies
 node_modules
+
+# Build output
 dist
 dist-ssr
+build
+
+# TypeScript build artifacts
+*.tsbuildinfo
+
+# Environment variables - never commit secrets
+./backend-api/.env
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.*.local
 *.local
+
+# Test coverage
+coverage
+*.lcov
+
+# Cache
+.cache
+.parcel-cache
+.eslintcache
+.stylelintcache
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
 .idea
 .DS_Store
+Thumbs.db
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# OS generated files
+ehthumbs.db
+Desktop.ini
+
+# Certificates and keys
+*.pem
+*.key
+*.cert
