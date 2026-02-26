@@ -138,3 +138,5 @@ describe("Users API Integration Tests (real DB)", () => {
     });
   });
 });
+
+// dummy test to verify test setup is working
